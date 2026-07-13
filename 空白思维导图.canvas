@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center-topic","type":"text","text":"# **LLM you need to learn**","x":-140,"y":-80,"width":280,"height":160,"color":"4"},
+		{"id":"first-branch","type":"text","text":"## Base model\n\"internet document simulator\"","x":220,"y":-263,"width":340,"height":143,"color":"2"},
+		{"id":"4b6eb1c8e9c7a2ab","type":"file","file":"LLM you need to learn/1.1.Data.md","x":160,"y":-800,"width":400,"height":400},
+		{"id":"111b9e69f3a8e9fa","type":"file","file":"LLM you need to learn/1.2.Pretraining + Infrence.md","x":560,"y":-800,"width":400,"height":400},
+		{"id":"6c9b5b9fd4bcf96a","type":"file","file":"LLM you need to learn/1.3.Demo.md","x":960,"y":-800,"width":400,"height":400},
+		{"id":"78f0a233ea1f8b39","type":"text","text":"## Post-Training","x":220,"y":-71,"width":340,"height":142,"color":"2"},
+		{"id":"40ddbf56b32c5dac","type":"file","file":"LLM you need to learn/2.1 Conversations build & study.md","x":840,"y":-200,"width":400,"height":400},
+		{"id":"4523c6513b2cf741","type":"file","file":"LLM you need to learn/2.2 Computation capabilities.md","x":1240,"y":-200,"width":400,"height":400},
+		{"id":"0ce9c375ab62da17","type":"text","text":"## Reinforcement Learning","x":220,"y":129,"width":340,"height":142,"color":"2"},
+		{"id":"3bbfb764ca5dcfc4","type":"file","file":"LLM you need to learn/3.why we reinforcement learning and what it looks like.md","x":982,"y":370,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"center-to-first-branch","fromNode":"center-topic","fromSide":"top","toNode":"first-branch","toSide":"left"},
+		{"id":"468cc5f6d65535fc","fromNode":"first-branch","fromSide":"top","toNode":"4b6eb1c8e9c7a2ab","toSide":"bottom"},
+		{"id":"e5cd19be7d95f32b","fromNode":"first-branch","fromSide":"right","toNode":"111b9e69f3a8e9fa","toSide":"bottom"},
+		{"id":"dea299d5a5b16f7a","fromNode":"first-branch","fromSide":"right","toNode":"6c9b5b9fd4bcf96a","toSide":"bottom"},
+		{"id":"42a67cf70ddc3814","fromNode":"center-topic","fromSide":"right","toNode":"78f0a233ea1f8b39","toSide":"left"},
+		{"id":"cea6bb07341081b0","fromNode":"78f0a233ea1f8b39","fromSide":"right","toNode":"40ddbf56b32c5dac","toSide":"left"},
+		{"id":"8a3d0bb6cdd1f90f","fromNode":"78f0a233ea1f8b39","fromSide":"right","toNode":"4523c6513b2cf741","toSide":"left"},
+		{"id":"47d2b1cceb56fe4d","fromNode":"center-topic","fromSide":"bottom","toNode":"0ce9c375ab62da17","toSide":"left"},
+		{"id":"e2cf426a37f8284b","fromNode":"0ce9c375ab62da17","fromSide":"bottom","toNode":"3bbfb764ca5dcfc4","toSide":"top"}
+	]
+}
